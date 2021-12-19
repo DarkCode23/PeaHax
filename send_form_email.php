@@ -11,7 +11,7 @@ $message = $_GET['message'];
 else {
   echo $myError;
 }
-$subject = "Report From OlympiaMC";
+$subject = "Report From PeaHax";
 
 /* If input is not valid show error message */
 if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
@@ -23,7 +23,7 @@ if (preg_match( '/[a-zA-Z]/', $cords )) {
     }
 /* Let's prepare the message for the e-mail */
 $message = "Hello,
-This is a report from the OlympiaMC Bootstrap Template. Below is the information...
+Hello This is a report from PeaHax Website:
 
 Name: $name
 E-mail: $email
@@ -31,7 +31,7 @@ E-mail: $email
 In-Game Coordinates: $cords
 Message: $message
 
-End of message
+Thanks, PeaTeam
 ";
 
 /* Send the message using mail() function */
