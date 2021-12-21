@@ -1,5 +1,5 @@
 function gen() {
-    var n = prompt("Enter a Number");
+    var n = prompt("Please enter a number to Generate(s)");
     console.log(n);
     for(var j = 0; j < n; j++) {
         let code = "";
