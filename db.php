@@ -1,7 +1,7 @@
 <?php
 
-$dbhost = "localhost";
-$dbname = "website";
+$dbhost = "https://darkcode23.github.io/PeaHax/";
+$dbname = "Account Gen";
 $dbuser = "root";
 $dbpass = "";
 
