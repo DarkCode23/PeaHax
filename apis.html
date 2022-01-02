@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from www.ps3cfw.com/apis.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 02 Jan 2022 08:06:15 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>APIs</title>
+	<meta name="description" content="View what premium APIs we offer!">
+	<meta name="robots" content="noindex">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-favicon.png">
+    <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+    <link href="libs/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="libs/jquery.scrollbar/jquery.scrollbar.css" rel="stylesheet">
+    <link href="libs/ionrangeslider/css/ion.rangeSlider.css" rel="stylesheet">
+    <link href="libs/ionrangeslider/css/ion.rangeSlider.skinFlat.css" rel="stylesheet">
+    <link href="libs/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css" rel="stylesheet">
+	<script src="../ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<link href="css/responsiveyoutubevid.css" rel="stylesheet">
+    <link href="libs/morris.js/morris.css" rel="stylesheet">
+    <link href="css/right.css" rel="stylesheet">
+    <link href="css/demo.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	
+  </head>
+  <body class="solid_dark">
+    <div class="wrapper">
+      <nav class="navbar navbar-static-top header-navbar">
+        <div class="header-navbar-mobile">
+          <div class="header-navbar-mobile__menu">
+            <button type="button" class="btn"><i class="fa fa-bars"></i></button>
+          </div>
+          <div class="header-navbar-mobile__title"><span>APIs</span></div>
+        </div>
+        <div class="navbar-header"><a href="index.html" class="navbar-brand">
+            <div class="logo text-nowrap">
+              <div class="logo__img"><i class="fa fa-chevron-right"></i></div><span class="logo__text">ps3CFW.com</span>
+            </div></a></div>
+			
+		<div class="topnavbar">
+          <ul class="nav navbar-nav navbar-left">
+            <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><span>
+			Account			<i class="caret"></i></span></a>
+              <ul class="dropdown-menu">
+			    <li><a href='login.html'>Log In</a></li><li><a href='register.html'>Create An Account</a></li>              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="dashboard">
+        <div class="sidebar">
+          <div class="scrollable scrollbar-macosx">
+            <div class="sidebar__cont">
+              <div class="sidebar__menu">
+                <div class="sidebar__title">Main</div>
+                <ul class="nav nav-menu">
+                  <li><a href="index.html">
+                      <div class="nav-menu__text"><span>Home</span></div></a></li>
+					  
+                  <li><a href="#">
+                      <div class="nav-menu__text"><span>Contact us</span></div>
+                      <div class="nav-menu__right"><i class="fa fa-fw fa-angle-right arrow"></i></div></a>
+                    <ul class="nav nav-menu__second collapse">
+                      <li><a href="login8d54.html">Email</a></li>
+                      <li onclick="launchhelp()"><a href="#">Live Support</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <div class="sidebar__title">Store</div>
+                <ul class="nav nav-menu">
+                  <li class="active"><a href="apis.html">
+                      <div class="nav-menu__text"><span>APIs</span></div></a></li>
+                  <!-- <li><a href="#">
+                      <div class="nav-menu__text"><span>SMS Bomber</span></div>
+                      <div class="nav-menu__right"><i class="fa fa-fw fa-angle-right arrow"></i></div></a>
+                    <ul class="nav nav-menu__second collapse">
+                      <li><a href="smsbomberpricing.php">Pricing</a></li>
+                      <li><a href="smsbomber.php">SMS Bomber</a></li>
+					  <li><a href="smsbomberfreetrial.php">Free Trial</a></li>
+                    </ul>
+                  </li> -->
+					  
+			    
+
+<div class="sidebar__title">Web Tools</div>
+
+  <!-- <li class=""><a href="adblocker.php">
+	  <div class="nav-menu__text"><span>Ad Blocker</span></div></a></li> -->
+	  
+  <li class=""><a href="iplog.html">
+	  <div class="nav-menu__text"><span>IP Logger</span></div></a></li>
+	  
+  <li class=""><a href="cloudflare.html">
+	  <div class="nav-menu__text"><span>CloudFlare Resolver</span></div></a></li>
+	  
+  <li class=""><a href="whois.html">
+	  <div class="nav-menu__text"><span>WHOIS Lookup</span></div></a></li>
+	  
+  <li class=""><a href="nameservers.html">
+	  <div class="nav-menu__text"><span>Fetch Nameservers</span></div></a></li>
+
+  <li class=""><a href="short.html">
+	  <div class="nav-menu__text"><span>URL Shortener</span></div></a></li>
+
+  <li class=""><a href="pingtest.html">
+	  <div class="nav-menu__text"><span>IP Ping Test</span></div></a></li>
+
+  <li class=""><a href="urldecoder.html">
+	  <div class="nav-menu__text"><span>Short URL Decoder</span></div></a></li>
+
+  <li class=""><a href="VPNDetector.html">
+	  <div class="nav-menu__text"><span>VPN Detector</span></div></a></li>
+	  
+  <li class=""><a href="geo.html">
+	  <div class="nav-menu__text"><span>IP Geolocation</span></div></a></li>
+	  
+  <li class=""><a href="domaintoip.html">
+	  <div class="nav-menu__text"><span>Domain To IP</span></div></a></li>				  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+        <div class="main">
+          <div class="scrollable scrollbar-macosx">
+            <div class="main__cont">
+              <div class="main-heading">
+                <div class="main-title">
+                  <ol class="breadcrumb">
+                    <li><a href="index-2.html">Home</a></li>
+                    <li class="active">APIs <small><small><span id="NIGGERyourLoggedinAS"></span></small></small></li>
+                  </ol>
+                </div>
+                <div class="main-filter">
+                  <form class="main-filter__search">
+                    <div class="input-group">
+                      <input type="text" placeholder="Search" class="form-control"><span class="input-group-btn">
+                        <a href="searchquery.html"><button type="button" class="btn btn-default">
+                          <div class="fa fa-search"></div>
+                        </button></span></a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+			  
+
+<script>
+$(document).ready(function(){
+	$("#buyWHOIS").click(function(){
+		$("#purchaseWHOIS").modal({backdrop: "static"});
+	});
+	$("#buyWHOIS2").click(function(){
+		$("#purchaseWHOIS2").modal({backdrop: "static"});
+	});
+	$("#buyWHOIS3").click(function(){
+		$("#purchaseWHOIS3").modal({backdrop: "static"});
+	});
+	
+	$("#buyPING").click(function(){
+		$("#purchasePING").modal({backdrop: "static"});
+	});
+	$("#buyPING2").click(function(){
+		$("#purchasePING2").modal({backdrop: "static"});
+	});
+	$("#buyPING3").click(function(){
+		$("#purchasePING3").modal({backdrop: "static"});
+	});
+	
+	$("#buyVPN").click(function(){
+		$("#purchaseVPN").modal({backdrop: "static"});
+	});
+	$("#buyVPN2").click(function(){
+		$("#purchaseVPN2").modal({backdrop: "static"});
+	});
+	$("#buyVPN3").click(function(){
+		$("#purchaseVPN3").modal({backdrop: "static"});
+	});
+	
+	
+	$("#buyDOMAIN").click(function(){
+		$("#purchaseDOMAIN").modal({backdrop: "static"});
+	});
+	$("#buyDOMAIN2").click(function(){
+		$("#purchaseDOMAIN2").modal({backdrop: "static"});
+	});
+	$("#buyDOMAIN3").click(function(){
+		$("#purchaseDOMAIN3").modal({backdrop: "static"});
+	});
+	
+	$("#buyGEO").click(function(){
+		$("#purchaseGEO").modal({backdrop: "static"});
+	});
+	$("#buyGEO2").click(function(){
+		$("#purchaseGEO2").modal({backdrop: "static"});
+	});
+	$("#buyGEO3").click(function(){
+		$("#purchaseGEO3").modal({backdrop: "static"});
+	});
+	
+	$("#purchaseWHOISBTN").click(function(){
+		$("#purchaseWHOISBTN").val("Processing...");
+		$(this).attr('disabled', 'disabled');
+		//$(this).parents('form').submit();
+		return true;
+	});
+	$("#purchaseWHOISBTN2").click(function(){
+		$("#purchaseWHOISBTN2").val("Processing...");
+		$(this).attr('disabled', 'disabled');
+		//$(this).parents('form').submit();
+		return true;
+	});
+	$("#purchaseWHOISBTN3").click(function(){
+		$("#purchaseWHOISBTN3").val("Processing...");
+		$(this).attr('disabled', 'disabled');
+		//$(this).parents('form').submit();
+		return true;
+	});
+	
+	$("#purchasePINGBTN").click(function(){
+		$("#purchasePINGBTN").val("Processing...");
+		$(this).attr('disabled', 'disabled');
+		//$(this).parents('form').submit();
+		return true;
+	});
+	$("#purchasePINGBTN2").click(function(){
+		$("#purchasePINGBTN2").val("Processing...");
+		$(this).attr('disabled', 'disabled');
+		//$(this).parents('form').submit();
+		return true;
+	});
+	$("#purchasePINGBTN3").click(function(){
+		$("#purchasePINGBTN3").val("Processing...");
+		$(this).attr('disabled', 'disabled');
+		//$(this).parents('form').submit();
+		return true;
+	});
+	
+	$("#purchaseVPNBTN").click(function(){
+		$("#purchaseVPNBTN").val("Processing...");
+		$(this).attr('disabled', 'disabled');
+		//$(this).parents('form').submit();
+		return true;
+	});
+	$("#purchaseVPNBTN2").click(function(){
+		$("#purchaseVPNBTN2").val("Processing...");
+		$(this).attr('disabled', 'disabled');
+		//$(this).parents('form').submit();
+		return true;
+	});
+	$("#purchaseVPNBTN3").click(function(){
+		$("#purchaseVPNBTN3").val("Processing...");
+		$(this).attr('disabled', 'disabled');
+		//$(this).parents('form').submit();
+		return true;
+	});
+	
+	$("#purchaseDOMAINBTN").click(function(){
+		$("#purchaseDOMAINBTN").val("Processing...");
+		$(this).attr('disabled', 'disabled');
+		//$(this).parents('form').submit();
+		return true;
+	});
+	$("#purchaseDOMAINBTN2").click(function(){
+		$("#purchaseDOMAINBTN2").val("Processing...");
+		$(this).attr('disabled', 'disabled');
+		//$(this).parents('form').submit();
+		return true;
+	});
+	$("#purchaseDOMAINBTN3").click(function(){
+		$("#purchaseDOMAINBTN3").val("Processing...");
+		$(this).attr('disabled', 'disabled');
+		//$(this).parents('form').submit();
+		return true;
+	});
+	
+	$("#purchaseGEOBTN").click(function(){
+		$("#purchaseGEOBTN").val("Processing...");
+		$(this).attr('disabled', 'disabled');
+		//$(this).parents('form').submit();
+		return true;
+	});
+	$("#purchaseGEOBTN2").click(function(){
+		$("#purchaseGEOBTN2").val("Processing...");
+		$(this).attr('disabled', 'disabled');
+		//$(this).parents('form').submit();
+		return true;
+	});
+	$("#purchaseGEOBTN3").click(function(){
+		$("#purchaseGEOBTN3").val("Processing...");
+		$(this).attr('disabled', 'disabled');
+		//$(this).parents('form').submit();
+		return true;
+	});
+});
+</script>	
+<script type="text/javascript">
+function launchhelp() {
+Tawk_API.popup();
+}
+</script>			  
+			  
+              <div class="container-fluid half-padding">
+				<div class="row">
+						
+				  <div class="col-lg-12 col-md-12 col-sm-12">
+					  <div class="alert alert-warning alert-dismissible" role="alert">
+						<button class="close" type="button" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<i class="alert-ico fa fa-fw fa-exclamation" style="margin-right:6px!important;"></i>
+						For the time being, we've discontinued our premium/paid-to-use API(s). All customers that still have active API keys can continue using our API(s) until their API keys expire. Additionally, it should be noted that all of our web tools aren't going away and will remain entirely free to use!
+					  </div>
+				  </div>
+						
+				   <div class="col-lg-4 col-md-4 col-sm-6">
+				      <div class="panel panel-danger">
+                          <div class="panel-heading">
+                            <h3 class="panel-title text-center">WHOIS Lookup<br/><font size="1px"><a href="whoisdocs.html">View Documentation</a></font></h3>
+                          </div>
+                          <div class="panel-body">
+							<div class="panel-body text-center">10,000 Queries</div>
+							<div class="panel-body text-center">Secure SSL / HTTPS</div>
+							<div class="panel-body text-center">Live Support</div><br/>
+							<button type="button" class="btn btn-default btn-sm btn-block" id="buyWHOIS">Purchase API Key ($9.99)</button>
+                        </div>
+                      </div>
+					</div>
+					
+				   <div class="col-lg-4 col-md-4 col-sm-6">
+				      <div class="panel panel-danger">
+                          <div class="panel-heading">
+                            <h3 class="panel-title text-center">WHOIS Lookup<br/><font size="1px"><a href="whoisdocs.html">View Documentation</a></font></h3>
+                          </div>
+                          <div class="panel-body">
+							<div class="panel-body text-center">15,000 Queries</div>
+							<div class="panel-body text-center">Secure SSL / HTTPS</div>
+							<div class="panel-body text-center">Live Support</div><br/>
+							<button type="button" class="btn btn-default btn-sm btn-block" id="buyWHOIS2">Purchase API Key ($10.99)</button>
+                        </div>
+                      </div>
+					</div>
+					
+				   <div class="col-lg-4 col-md-4 col-sm-6">
+				      <div class="panel panel-danger">
+                          <div class="panel-heading">
+                            <h3 class="panel-title text-center">WHOIS Lookup<br/><font size="1px"><a href="whoisdocs.html">View Documentation</a></font></h3>
+                          </div>
+                          <div class="panel-body">
+							<div class="panel-body text-center">20,000 Queries</div>
+							<div class="panel-body text-center">Secure SSL / HTTPS</div>
+							<div class="panel-body text-center">Live Support</div><br/>
+							<button type="button" class="btn btn-default btn-sm btn-block" id="buyWHOIS3">Purchase API Key ($11.99)</button>
+                        </div>
+                      </div>
+					</div>
+					
+					
+					
+					
+				   <div class="col-lg-4 col-md-4 col-sm-6">
+				      <div class="panel panel-danger">
+                          <div class="panel-heading">
+                            <h3 class="panel-title text-center">Ping Test<br/><font size="1px"><a href="pingtestdocs.html">View Documentation</a></font></h3>
+                          </div>
+                          <div class="panel-body">
+							<div class="panel-body text-center">10,000 Queries</div>
+							<div class="panel-body text-center">Secure SSL / HTTPS</div>
+							<div class="panel-body text-center">Live Support</div><br/>
+							<button type="button" class="btn btn-default btn-sm btn-block" id="buyPING">Purchase API Key ($5.99)</button>
+                        </div>
+                      </div>
+					</div>
+					
+				   <div class="col-lg-4 col-md-4 col-sm-6">
+				      <div class="panel panel-danger">
+                          <div class="panel-heading">
+                            <h3 class="panel-title text-center">Ping Test<br/><font size="1px"><a href="pingtestdocs.html">View Documentation</a></font></h3>
+                          </div>
+                          <div class="panel-body">
+							<div class="panel-body text-center">15,000 Queries</div>
+							<div class="panel-body text-center">Secure SSL / HTTPS</div>
+							<div class="panel-body text-center">Live Support</div><br/>
+							<button type="button" class="btn btn-default btn-sm btn-block" id="buyPING2">Purchase API Key ($6.99)</button>
+                        </div>
+                      </div>
+					</div>
+					
+				   <div class="col-lg-4 col-md-4 col-sm-6">
+				      <div class="panel panel-danger">
+                          <div class="panel-heading">
+                            <h3 class="panel-title text-center">Ping Test<br/><font size="1px"><a href="pingtestdocs.html">View Documentation</a></font></h3>
+                          </div>
+                          <div class="panel-body">
+							<div class="panel-body text-center">20,000 Queries</div>
+							<div class="panel-body text-center">Secure SSL / HTTPS</div>
+							<div class="panel-body text-center">Live Support</div><br/>
+							<button type="button" class="btn btn-default btn-sm btn-block" id="buyPING3">Purchase API Key ($7.99)</button>
+                        </div>
+                      </div>
+					</div>
+					
+					
+					
+					
+				   <div class="col-lg-4 col-md-4 col-sm-6">
+				      <div class="panel panel-danger">
+                          <div class="panel-heading">
+                            <h3 class="panel-title text-center">VPN Detector<br/><font size="1px"><a href="vpndetectordocs.html">View Documentation</a></font></h3>
+                          </div>
+                          <div class="panel-body">
+							<div class="panel-body text-center">10,000 Queries</div>
+							<div class="panel-body text-center">Secure SSL / HTTPS</div>
+							<div class="panel-body text-center">Live Support</div><br/>
+							<button type="button" class="btn btn-default btn-sm btn-block" id="buyVPN">Purchase API Key ($1.99)</button>
+                        </div>
+                      </div>
+					</div>
+					
+				   <div class="col-lg-4 col-md-4 col-sm-6">
+				      <div class="panel panel-danger">
+                          <div class="panel-heading">
+                            <h3 class="panel-title text-center">VPN Detector<br/><font size="1px"><a href="vpndetectordocs.html">View Documentation</a></font></h3>
+                          </div>
+                          <div class="panel-body">
+							<div class="panel-body text-center">15,000 Queries</div>
+							<div class="panel-body text-center">Secure SSL / HTTPS</div>
+							<div class="panel-body text-center">Live Support</div><br/>
+							<button type="button" class="btn btn-default btn-sm btn-block" id="buyVPN2">Purchase API Key ($2.99)</button>
+                        </div>
+                      </div>
+					</div>
+					
+				   <div class="col-lg-4 col-md-4 col-sm-6">
+				      <div class="panel panel-danger">
+                          <div class="panel-heading">
+                            <h3 class="panel-title text-center">VPN Detector<br/><font size="1px"><a href="vpndetectordocs.html">View Documentation</a></font></h3>
+                          </div>
+                          <div class="panel-body">
+							<div class="panel-body text-center">20,000 Queries</div>
+							<div class="panel-body text-center">Secure SSL / HTTPS</div>
+							<div class="panel-body text-center">Live Support</div><br/>
+							<button type="button" class="btn btn-default btn-sm btn-block" id="buyVPN3">Purchase API Key ($3.99)</button>
+                        </div>
+                      </div>
+					</div>
+					
+					
+					
+					
+				   <div class="col-lg-4 col-md-4 col-sm-6">
+				      <div class="panel panel-danger">
+                          <div class="panel-heading">
+                            <h3 class="panel-title text-center">Domain To IP<br/><font size="1px"><a href="domaintoipdocs.html">View Documentation</a></font></h3>
+                          </div>
+                          <div class="panel-body">
+							<div class="panel-body text-center">10,000 Queries</div>
+							<div class="panel-body text-center">Secure SSL / HTTPS</div>
+							<div class="panel-body text-center">Live Support</div><br/>
+							<button type="button" class="btn btn-default btn-sm btn-block" id="buyDOMAIN">Purchase API Key ($0.99)</button>
+                        </div>
+                      </div>
+					</div>
+					
+				   <div class="col-lg-4 col-md-4 col-sm-6">
+				      <div class="panel panel-danger">
+                          <div class="panel-heading">
+                            <h3 class="panel-title text-center">Domain To IP<br/><font size="1px"><a href="domaintoipdocs.html">View Documentation</a></font></h3>
+                          </div>
+                          <div class="panel-body">
+							<div class="panel-body text-center">15,000 Queries</div>
+							<div class="panel-body text-center">Secure SSL / HTTPS</div>
+							<div class="panel-body text-center">Live Support</div><br/>
+							<button type="button" class="btn btn-default btn-sm btn-block" id="buyDOMAIN2">Purchase API Key ($1.49)</button>
+                        </div>
+                      </div>
+					</div>
+					
+				   <div class="col-lg-4 col-md-4 col-sm-6">
+				      <div class="panel panel-danger">
+                          <div class="panel-heading">
+                            <h3 class="panel-title text-center">Domain To IP<br/><font size="1px"><a href="domaintoipdocs.html">View Documentation</a></font></h3>
+                          </div>
+                          <div class="panel-body">
+							<div class="panel-body text-center">20,000 Queries</div>
+							<div class="panel-body text-center">Secure SSL / HTTPS</div>
+							<div class="panel-body text-center">Live Support</div><br/>
+							<button type="button" class="btn btn-default btn-sm btn-block" id="buyDOMAIN3">Purchase API Key ($1.99)</button>
+                        </div>
+                      </div>
+					</div>
+					
+					
+					
+					
+				   <div class="col-lg-4 col-md-4 col-sm-6">
+				      <div class="panel panel-danger">
+                          <div class="panel-heading">
+                            <h3 class="panel-title text-center">Geolocate IP<br/><font size="1px"><a href="geolocateipdocs.html">View Documentation</a></font></h3>
+                          </div>
+                          <div class="panel-body">
+							<div class="panel-body text-center">10,000 Queries</div>
+							<div class="panel-body text-center">Secure SSL / HTTPS</div>
+							<div class="panel-body text-center">Live Support</div><br/>
+							<button type="button" class="btn btn-default btn-sm btn-block" id="buyGEO">Purchase API Key ($3.99)</button>
+                        </div>
+                      </div>
+					</div>
+					
+				   <div class="col-lg-4 col-md-4 col-sm-6">
+				      <div class="panel panel-danger">
+                          <div class="panel-heading">
+                            <h3 class="panel-title text-center">Geolocate IP<br/><font size="1px"><a href="geolocateipdocs.html">View Documentation</a></font></h3>
+                          </div>
+                          <div class="panel-body">
+							<div class="panel-body text-center">15,000 Queries</div>
+							<div class="panel-body text-center">Secure SSL / HTTPS</div>
+							<div class="panel-body text-center">Live Support</div><br/>
+							<button type="button" class="btn btn-default btn-sm btn-block" id="buyGEO2">Purchase API Key ($4.99)</button>
+                        </div>
+                      </div>
+					</div>
+					
+				   <div class="col-lg-4 col-md-4 col-sm-6">
+				      <div class="panel panel-danger">
+                          <div class="panel-heading">
+                            <h3 class="panel-title text-center">Geolocate IP<br/><font size="1px"><a href="geolocateipdocs.html">View Documentation</a></font></h3>
+                          </div>
+                          <div class="panel-body">
+							<div class="panel-body text-center">20,000 Queries</div>
+							<div class="panel-body text-center">Secure SSL / HTTPS</div>
+							<div class="panel-body text-center">Live Support</div><br/>
+							<button type="button" class="btn btn-default btn-sm btn-block" id="buyGEO3">Purchase API Key ($5.99)</button>
+                        </div>
+                      </div>
+					</div>
+							
+							
+				  </div>
+				</div><br/><br/>
+						
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+   <div class="modal fade" id="purchaseWHOIS" role="dialog"><!-- 10,000 -->
+    <div class="modal-dialog modal-sm">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">WHOIS Lookup API Key</h4>
+        </div>
+        <div class="modal-body">
+		   <b>Product Details</b><br/>API Queries: 10,000<br/>Price: $9.99
+		   <br/><br/><font size="1px">After purchase is complete your API Key will be automatically sent to the email address associated with your PayPal Account</font><br/><br/>
+		   
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="HBPXYWBMHGY3G">
+			<input name="custom" value="10000" type="hidden">
+			<img alt="" border="0" src="../www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			<input type="submit" class="btn btn-xs" id='purchaseWHOISBTN' value="Purchase w/ Paypal"/>
+			<button type="button" class="btn btn-xs pull-right" data-dismiss="modal">Cancel</button>
+			</form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+   <div class="modal fade" id="purchaseWHOIS2" role="dialog"><!-- 15,000 -->
+    <div class="modal-dialog modal-sm">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">WHOIS Lookup API Key</h4>
+        </div>
+        <div class="modal-body">
+		   <b>Product Details</b><br/>API Queries: 15,000<br/>Price: $10.99
+		   <br/><br/><font size="1px">After purchase is complete your API Key will be automatically sent to the email address associated with your PayPal Account</font><br/><br/>
+		   
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="GKQ97GRYU4BVQ">
+			<input name="custom" value="15000" type="hidden">
+			<img alt="" border="0" src="../www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			<input type="submit" class="btn btn-xs" id='purchaseWHOISBTN2' value="Purchase w/ Paypal"/>
+			<button type="button" class="btn btn-xs pull-right" data-dismiss="modal">Cancel</button>
+			</form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+   <div class="modal fade" id="purchaseWHOIS3" role="dialog"><!-- 20,000 -->
+    <div class="modal-dialog modal-sm">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">WHOIS Lookup API Key</h4>
+        </div>
+        <div class="modal-body">
+		   <b>Product Details</b><br/>API Queries: 20,000<br/>Price: $11.99
+		   <br/><br/><font size="1px">After purchase is complete your API Key will be automatically sent to the email address associated with your PayPal Account</font><br/><br/>
+		   
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="4DPMSDH92YKKQ">
+			<input name="custom" value="20000" type="hidden">
+			<img alt="" border="0" src="../www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			<input type="submit" class="btn btn-xs" id='purchaseWHOISBTN3' value="Purchase w/ Paypal"/>
+			<button type="button" class="btn btn-xs pull-right" data-dismiss="modal">Cancel</button>
+			</form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+   <div class="modal fade" id="purchasePING" role="dialog"><!-- 10,000 -->
+    <div class="modal-dialog modal-sm">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Ping Test API Key</h4>
+        </div>
+        <div class="modal-body">
+		   <b>Product Details</b><br/>API Queries: 10,000<br/>Price: $5.99
+		   <br/><br/><font size="1px">After purchase is complete your API Key will be automatically sent to the email address associated with your PayPal Account</font><br/><br/>
+		   
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="2DL8A57DT4GXN">
+			<input name="custom" value="10000" type="hidden">
+			<img alt="" border="0" src="../www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			<input type="submit" class="btn btn-xs" id='purchasePINGBTN' value="Purchase w/ Paypal"/>
+			<button type="button" class="btn btn-xs pull-right" data-dismiss="modal">Cancel</button>
+			</form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+   <div class="modal fade" id="purchasePING2" role="dialog"><!-- 15,000 -->
+    <div class="modal-dialog modal-sm">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Ping Test API Key</h4>
+        </div>
+        <div class="modal-body">
+		   <b>Product Details</b><br/>API Queries: 15,000<br/>Price: $6.99
+		   <br/><br/><font size="1px">After purchase is complete your API Key will be automatically sent to the email address associated with your PayPal Account</font><br/><br/>
+		   
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="PYXKE2UMHGPYS">
+			<input name="custom" value="15000" type="hidden">
+			<img alt="" border="0" src="../www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			<input type="submit" class="btn btn-xs" id='purchasePINGBTN2' value="Purchase w/ Paypal"/>
+			<button type="button" class="btn btn-xs pull-right" data-dismiss="modal">Cancel</button>
+			</form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+   <div class="modal fade" id="purchasePING3" role="dialog"><!-- 20,000 -->
+    <div class="modal-dialog modal-sm">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Ping Test API Key</h4>
+        </div>
+        <div class="modal-body">
+		   <b>Product Details</b><br/>API Queries: 20,000<br/>Price: $7.99
+		   <br/><br/><font size="1px">After purchase is complete your API Key will be automatically sent to the email address associated with your PayPal Account</font><br/><br/>
+		   
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="WRAZPZQ5C2DJS">
+			<input name="custom" value="20000" type="hidden">
+			<img alt="" border="0" src="../www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			<input type="submit" class="btn btn-xs" id='purchasePINGBTN3' value="Purchase w/ Paypal"/>
+			<button type="button" class="btn btn-xs pull-right" data-dismiss="modal">Cancel</button>
+			</form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+   <div class="modal fade" id="purchaseVPN" role="dialog"><!-- 10,000 -->
+    <div class="modal-dialog modal-sm">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">VPN Detector API Key</h4>
+        </div>
+        <div class="modal-body">
+		   <b>Product Details</b><br/>API Queries: 10,000<br/>Price: $1.99
+		   <br/><br/><font size="1px">After purchase is complete your API Key will be automatically sent to the email address associated with your PayPal Account</font><br/><br/>
+		   
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="CC452PRSJYADC">
+			<input name="custom" value="10000" type="hidden">
+			<img alt="" border="0" src="../www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			<input type="submit" class="btn btn-xs" id='purchaseVPNBTN' value="Purchase w/ Paypal"/>
+			<button type="button" class="btn btn-xs pull-right" data-dismiss="modal">Cancel</button>
+			</form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+   <div class="modal fade" id="purchaseVPN2" role="dialog"><!-- 15,000 -->
+    <div class="modal-dialog modal-sm">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">VPN Detector API Key</h4>
+        </div>
+        <div class="modal-body">
+		   <b>Product Details</b><br/>API Queries: 15,000<br/>Price: $2.99
+		   <br/><br/><font size="1px">After purchase is complete your API Key will be automatically sent to the email address associated with your PayPal Account</font><br/><br/>
+		   
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="ZH5DBF2T2RMDC">
+			<input name="custom" value="15000" type="hidden">
+			<img alt="" border="0" src="../www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			<input type="submit" class="btn btn-xs" id='purchaseVPNBTN2' value="Purchase w/ Paypal"/>
+			<button type="button" class="btn btn-xs pull-right" data-dismiss="modal">Cancel</button>
+			</form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+   <div class="modal fade" id="purchaseVPN3" role="dialog"><!-- 20,000 -->
+    <div class="modal-dialog modal-sm">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">VPN Detector API Key</h4>
+        </div>
+        <div class="modal-body">
+		   <b>Product Details</b><br/>API Queries: 20,000<br/>Price: $3.99
+		   <br/><br/><font size="1px">After purchase is complete your API Key will be automatically sent to the email address associated with your PayPal Account</font><br/><br/>
+		   
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="L3RKSWU562EV4">
+			<input name="custom" value="20000" type="hidden">
+			<img alt="" border="0" src="../www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			<input type="submit" class="btn btn-xs" id='purchaseVPNBTN3' value="Purchase w/ Paypal"/>
+			<button type="button" class="btn btn-xs pull-right" data-dismiss="modal">Cancel</button>
+			</form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+   <div class="modal fade" id="purchaseDOMAIN" role="dialog"><!-- 10,000 -->
+    <div class="modal-dialog modal-sm">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Domain To IP API Key</h4>
+        </div>
+        <div class="modal-body">
+		   <b>Product Details</b><br/>API Queries: 10,000<br/>Price: $0.99
+		   <br/><br/><font size="1px">After purchase is complete your API Key will be automatically sent to the email address associated with your PayPal Account</font><br/><br/>
+		   
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="C5PWHCBWGPP92">
+			<input name="custom" value="10000" type="hidden">
+			<img alt="" border="0" src="../www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			<input type="submit" class="btn btn-xs" id='purchaseDOMAINBTN' value="Purchase w/ Paypal"/>
+			<button type="button" class="btn btn-xs pull-right" data-dismiss="modal">Cancel</button>
+			</form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+   <div class="modal fade" id="purchaseDOMAIN2" role="dialog"><!-- 15,000 -->
+    <div class="modal-dialog modal-sm">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Domain To IP API Key</h4>
+        </div>
+        <div class="modal-body">
+		   <b>Product Details</b><br/>API Queries: 15,000<br/>Price: $1.49
+		   <br/><br/><font size="1px">After purchase is complete your API Key will be automatically sent to the email address associated with your PayPal Account</font><br/><br/>
+		   
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="6MAGX69JTDW7C">
+			<input name="custom" value="15000" type="hidden">
+			<img alt="" border="0" src="../www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			<input type="submit" class="btn btn-xs" id='purchaseDOMAINBTN2' value="Purchase w/ Paypal"/>
+			<button type="button" class="btn btn-xs pull-right" data-dismiss="modal">Cancel</button>
+			</form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+   <div class="modal fade" id="purchaseDOMAIN3" role="dialog"><!-- 20,000 -->
+    <div class="modal-dialog modal-sm">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Domain To IP API Key</h4>
+        </div>
+        <div class="modal-body">
+		   <b>Product Details</b><br/>API Queries: 20,000<br/>Price: $1.99
+		   <br/><br/><font size="1px">After purchase is complete your API Key will be automatically sent to the email address associated with your PayPal Account</font><br/><br/>
+		   
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="ZAP2PPKS7X6BW">
+			<input name="custom" value="20000" type="hidden">
+			<img alt="" border="0" src="../www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			<input type="submit" class="btn btn-xs" id='purchaseDOMAINBTN3' value="Purchase w/ Paypal"/>
+			<button type="button" class="btn btn-xs pull-right" data-dismiss="modal">Cancel</button>
+			</form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+   <div class="modal fade" id="purchaseGEO" role="dialog"><!-- 10,000 -->
+    <div class="modal-dialog modal-sm">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Geolocate IP API Key</h4>
+        </div>
+        <div class="modal-body">
+		   <b>Product Details</b><br/>API Queries: 10,000<br/>Price: $3.99
+		   <br/><br/><font size="1px">After purchase is complete your API Key will be automatically sent to the email address associated with your PayPal Account</font><br/><br/>
+		   
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="NK8PSKYRH9ZR6">
+			<input name="custom" value="10000" type="hidden">
+			<img alt="" border="0" src="../www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			<input type="submit" class="btn btn-xs" id='purchaseGEOBTN' value="Purchase w/ Paypal"/>
+			<button type="button" class="btn btn-xs pull-right" data-dismiss="modal">Cancel</button>
+			</form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+   <div class="modal fade" id="purchaseGEO2" role="dialog"><!-- 15,000 -->
+    <div class="modal-dialog modal-sm">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Geolocate IP API Key</h4>
+        </div>
+        <div class="modal-body">
+		   <b>Product Details</b><br/>API Queries: 15,000<br/>Price: $4.99
+		   <br/><br/><font size="1px">After purchase is complete your API Key will be automatically sent to the email address associated with your PayPal Account</font><br/><br/>
+		   
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="UUVQTXMR766PQ">
+			<input name="custom" value="15000" type="hidden">
+			<img alt="" border="0" src="../www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			<input type="submit" class="btn btn-xs" id='purchaseGEOBTN2' value="Purchase w/ Paypal"/>
+			<button type="button" class="btn btn-xs pull-right" data-dismiss="modal">Cancel</button>
+			</form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+   <div class="modal fade" id="purchaseGEO3" role="dialog"><!-- 20,000 -->
+    <div class="modal-dialog modal-sm">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Geolocate IP API Key</h4>
+        </div>
+        <div class="modal-body">
+		   <b>Product Details</b><br/>API Queries: 20,000<br/>Price: $5.99
+		   <br/><br/><font size="1px">After purchase is complete your API Key will be automatically sent to the email address associated with your PayPal Account</font><br/><br/>
+		   
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="WMNS23U8LZ282">
+			<input name="custom" value="20000" type="hidden">
+			<img alt="" border="0" src="../www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			<input type="submit" class="btn btn-xs" id='purchaseGEOBTN3' value="Purchase w/ Paypal"/>
+			<button type="button" class="btn btn-xs pull-right" data-dismiss="modal">Cancel</button>
+			</form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+	
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libs/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="libs/bootstrap-tabdrop/bootstrap-tabdrop.min.js"></script>
+    <script src="libs/sparkline/jquery.sparkline.min.js"></script>
+    <script src="libs/ionrangeslider/js/ion.rangeSlider.min.js"></script>
+    <script src="libs/inputNumber/js/inputNumber.js"></script>
+    <script src="libs/bootstrap-switch/dist/js/bootstrap-switch.min.js"></script>
+    <script src="libs/raphael/raphael-min.js"></script>
+    <script src="libs/morris.js/morris.min.js"></script>
+    <script src="js/template/charts.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/demo.js"></script>
+	<script type="text/javascript">var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();(function(){var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];s1.async=true;s1.src='https://embed.tawk.to/5666f5bca98ae87203c7d258/default';s1.charset='UTF-8';s1.setAttribute('crossorigin','*');s0.parentNode.insertBefore(s1,s0);})();</script>
+  </body>
+
+<!-- Mirrored from www.ps3cfw.com/apis.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 02 Jan 2022 08:06:20 GMT -->
+</html>
